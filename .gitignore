@@ -1,0 +1,57 @@
+```
+# ---- General ----
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.out
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+.env.local
+.env.*.local
+
+# ---- C++ ----
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# ---- Streamlit / Local ----
+.streamlit/
+.cache/
+*.db
+*.sqlite3
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ---- OS generated ----
+Thumbs.db
+ehthumbs.db
+desktop.ini
+```
